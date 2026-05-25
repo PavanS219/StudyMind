@@ -1,0 +1,110 @@
+.mcq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  padding-bottom: 8px;
+}
+
+.score-bar {
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+}
+
+.score-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-2);
+  font-family: var(--font-display);
+}
+
+.mcq-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mcq-question {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.mcq-num {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--accent);
+  margin-right: 4px;
+}
+
+.mcq-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mcq-option {
+  text-align: left;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  font-size: 13.5px;
+  transition: all var(--transition);
+}
+
+.mcq-option:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.mcq-option--selected {
+  border-color: var(--accent);
+  background: rgba(91, 143, 255, 0.1);
+  color: var(--accent);
+}
+
+.mcq-option--correct {
+  border-color: var(--green);
+  background: rgba(62, 207, 142, 0.1);
+  color: var(--green);
+}
+
+.mcq-option--wrong {
+  border-color: var(--red);
+  background: rgba(239, 68, 68, 0.08);
+  color: var(--red);
+}
+
+.check-btn {
+  align-self: flex-start;
+  padding: 7px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--accent);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all var(--transition);
+}
+
+.check-btn:hover {
+  background: #7aaeff;
+}
+
+.mcq-explanation {
+  font-size: 13px;
+  color: var(--text-2);
+  background: var(--surface-3);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--green);
+  line-height: 1.6;
+}

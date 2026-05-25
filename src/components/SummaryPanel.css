@@ -1,0 +1,88 @@
+/* Length tab selector */
+.length-tabs {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 3px;
+}
+
+.length-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  padding: 5px 12px;
+  border-radius: calc(var(--radius-sm) - 2px);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-3);
+  transition: all var(--transition);
+  white-space: nowrap;
+  line-height: 1.2;
+}
+
+.length-tab:hover {
+  color: var(--text);
+  background: var(--surface-3);
+}
+
+.length-tab--active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.length-tab--active .length-words {
+  color: rgba(255,255,255,0.7);
+}
+
+.length-words {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--text-3);
+}
+
+/* ── Formatted summary content ──────────────────────────────────── */
+.summary-body {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.8;
+}
+
+.summary-heading {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 14px 0 4px;
+  letter-spacing: -0.01em;
+}
+
+.summary-heading:first-child {
+  margin-top: 0;
+}
+
+.summary-bullet {
+  padding-left: 16px;
+  position: relative;
+  color: var(--text-2);
+  margin: 2px 0;
+}
+
+.summary-bullet::before {
+  content: "•";
+  position: absolute;
+  left: 4px;
+  color: var(--accent);
+}
+
+.summary-line {
+  margin: 4px 0;
+  color: var(--text);
+}
+
+.summary-spacer {
+  height: 6px;
+}
