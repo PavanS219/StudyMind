@@ -1,0 +1,20 @@
+fastapi
+uvicorn
+python-multipart
+PyMuPDF
+numpy
+pydantic
+python-dotenv
+
+# LangChain stack
+langchain
+langchain-community
+langchain-groq
+langchain-text-splitters
+
+# LLM / Embeddings
+groq
+openai
+
+# Vector store
+qdrant-client
