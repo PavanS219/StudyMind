@@ -12,7 +12,7 @@ Students waste hours manually extracting key information from large study materi
 
 ## Demo Video Link
 
-[Watch Demo](https://drive.google.com/file/d/1hp6a9vzW8qiH1xBHQQBdJ8dvThoTR4XE/view?usp=sharing) ← paste your YouTube or Google Drive link here
+[Watch Demo](https://drive.google.com/file/d/1hp6a9vzW8qiH1xBHQQBdJ8dvThoTR4XE/view?usp=sharing) 
 
 ---
 
